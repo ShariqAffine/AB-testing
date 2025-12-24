@@ -1,0 +1,13 @@
+{
+    "statistics": {
+        "t_test_p_value": 0.14278642437865938,
+        "mann_whitney_p_value": 0.30610346625699913
+    },
+    "decision": {
+        "control_mean": 0.1148,
+        "test_mean": 0.0923,
+        "lift_percent": -19.57,
+        "decision": "KEEP CONTROL",
+        "significant": false
+    }
+}
