@@ -6,8 +6,12 @@ from src.runner import run_ab_test
 import logging
 
 if __name__ == "__main__":
+    print('loading control')
     control = clean_data(load_data("data/control_group.csv"))
+    print('loaded control\n')
+    print('\n loading test')
     test = clean_data(load_data("data/test_group.csv"))
+    print('loaded test')
 
     result = run_ab_test(control, test)
 
